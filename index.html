@@ -25,46 +25,47 @@
 
     <title>Frontend Mentor | Ping coming soon page</title>
   </head>
-  <main>
+
   <body>
-    <div class="container">
-      <img class="logo" src="./images/logo.svg" alt="logo" />
-      <h1 class="title">We are launching <span class="emph">soon!</span></h1>
-      <div class="subtitle">Subscribe and get notified</div>
-      <div class="formContainer">
-        <form onsubmit="event.preventDefault();">
-          <input
-            class="emailInput"
-            type="text"
-            id="email"
-            name="email"
-            placeholder="Your email address..."
+    <main>
+      <div class="container">
+        <img class="logo" src="./images/logo.svg" alt="logo" />
+        <h1 class="title">We are launching <span class="emph">soon!</span></h1>
+        <div class="subtitle">Subscribe and get notified</div>
+        <div class="formContainer">
+          <form onsubmit="event.preventDefault();">
+            <input
+              class="emailInput"
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Your email address..."
+            />
+            <button class="submitBtn" type="submit">Notify Me</button>
+            <div class="errorMsg">Please provide a valid email address</div>
+          </form>
+        </div>
+        <div class="imgContainer">
+          <img
+            src="./images/illustration-dashboard.png"
+            alt="illustration-dashboard"
           />
-          <button class="submitBtn" type="submit">Notify Me</button>
-          <div class="errorMsg">Please provide a valid email address</div>
-        </form>
+        </div>
       </div>
-      <div class="imgContainer">
-        <img
-          src="./images/illustration-dashboard.png"
-          alt="illustration-dashboard"
-        />
-      </div>
-    </div>
-    <footer>
-      <div class="links">
-        <a href="http://facebook.com" aria-label="facebook link"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
-        <a href="http://twitter.com" aria-label="twitter link"
-          ><i class="fab fa-twitter"></i
-        ></a>
-        <a href="http://instagram.com" aria-label="instagram link"
-          ><i class="fab fa-instagram"></i
-        ></a>
-      </div>
-      <div class="copyright">&copy; Copyright Ping. All rights reserved.</div>
-    </footer>
+      <footer>
+        <div class="links">
+          <a href="http://facebook.com" aria-label="facebook link"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="http://twitter.com" aria-label="twitter link"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="http://instagram.com" aria-label="instagram link"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <div class="copyright">&copy; Copyright Ping. All rights reserved.</div>
+      </footer>
+    </main>
   </body>
-  </main>
 </html>
